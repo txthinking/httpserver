@@ -1,22 +1,22 @@
 package main
 
 import (
+	"flag"
 	"fmt"
 	"log"
 	"net/http"
-	"os"
-	"strings"
 )
 
+var address string
+var dir string
+
+func init() {
+	flag.StringVar(&address, "l", ":8080", "listen address")
+	flag.StringVar(&dir, "d", ".", "web root dir")
+}
+
 func main() {
-	s := ":8080"
-	if len(os.Args) == 2 {
-		if strings.Contains(os.Args[1], "h") {
-			fmt.Println("$ httpserver [:8080]")
-			return
-		}
-		s = os.Args[1]
-	}
-	fmt.Println("listen http on", s)
-	log.Println(http.ListenAndServe(s, http.FileServer(http.Dir("."))))
+	flag.Parse()
+	fmt.Println("listen http on", address)
+	log.Println(http.ListenAndServe(address, http.FileServer(http.Dir(dir))))
 }
