@@ -20,3 +20,11 @@ $ nami install github.com/txthinking/httpserver
 ```
 $ httpserver
 ```
+
+## Author
+
+A project by [txthinking](https://www.txthinking.com)
+
+## License
+
+Licensed under The MIT License
