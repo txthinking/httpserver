@@ -2,7 +2,7 @@
 
 [中文](README_ZH.md)
 
-[🗣 Talks](https://t.me/txthinking_talks)
+[🗣 Talks](https://t.me/txthinking_news)
 [💬 Join](https://join.txthinking.com)
 [🩸 Youtube](https://www.youtube.com/txthinking) 
 [❤️ Sponsor](https://github.com/sponsors/txthinking)
