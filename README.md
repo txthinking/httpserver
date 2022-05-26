@@ -14,7 +14,7 @@ This is a very simple http static server, sometimes we need it for testing
 ### Install via [nami](https://github.com/txthinking/nami)
 
 ```
-$ nami install github.com/txthinking/httpserver
+$ nami install httpserver
 ```
 
 ### Usage
