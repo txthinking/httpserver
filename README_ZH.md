@@ -2,11 +2,6 @@
 
 [English](README.md)
 
-[🗣 Talks](https://t.me/txthinking_talks)
-[💬 Join](https://join.txthinking.com)
-[🩸 Youtube](https://www.youtube.com/txthinking) 
-[❤️ Sponsor](https://github.com/sponsors/txthinking)
-
 这是一个非常简单的 http static server, 通常用于测试
 
 > **如果你需要一个正式的 HTTP2 web server, 试试 [nico](https://github.com/txthinking/nico)**
